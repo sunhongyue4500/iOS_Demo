@@ -17,7 +17,6 @@
 		A69FC85C1DB0893000C94395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69FC85A1DB0893000C94395 /* Main.storyboard */; };
 		A69FC85E1DB0893000C94395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69FC85D1DB0893000C94395 /* Assets.xcassets */; };
 		A69FC8611DB0893000C94395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69FC85F1DB0893000C94395 /* LaunchScreen.storyboard */; };
-		A69FC8691DB0894900C94395 /* srtm_64_05.tif in Resources */ = {isa = PBXBuildFile; fileRef = A69FC8681DB0894900C94395 /* srtm_64_05.tif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 		A69FC85D1DB0893000C94395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69FC8601DB0893000C94395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69FC8621DB0893000C94395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A69FC8681DB0894900C94395 /* srtm_64_05.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = srtm_64_05.tif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				A69661881DB1D2C6002C1A1B /* Resource */,
-				A69FC8681DB0894900C94395 /* srtm_64_05.tif */,
 				A69FC8541DB0893000C94395 /* AppDelegate.h */,
 				A69FC8551DB0893000C94395 /* AppDelegate.m */,
 				A69FC8571DB0893000C94395 /* ViewController.h */,
@@ -170,7 +167,6 @@
 				A696618B1DB1D326002C1A1B /* N50E007.hgt in Resources */,
 				A69FC8611DB0893000C94395 /* LaunchScreen.storyboard in Resources */,
 				A69FC85E1DB0893000C94395 /* Assets.xcassets in Resources */,
-				A69FC8691DB0894900C94395 /* srtm_64_05.tif in Resources */,
 				A69FC85C1DB0893000C94395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
