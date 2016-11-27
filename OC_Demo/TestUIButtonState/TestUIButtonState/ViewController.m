@@ -70,16 +70,16 @@
     center.x += 360.f;
     self.button6_2 = [self getButton];
     [self.button6_2 setBackgroundImage:[self imageWithColor:[UIColor whiteColor]] forState:UIControlStateNormal];
-    [self.button6_2 setBackgroundImage:[self imageWithColor:[UIColor yellowColor]] forState:UIControlStateSelected];
+    [self.button6_2 setBackgroundImage:[self imageWithColor:[UIColor redColor]] forState:UIControlStateSelected];
     // 如果没有设置UIControlStateSelected | UIControlStateHighlighted的颜色，默认是灰色的
-    [self.button6_2 setBackgroundImage:[self imageWithColor:[UIColor blueColor]] forState:UIControlStateSelected | UIControlStateHighlighted];
+    [self.button6_2 setBackgroundImage:[self imageWithColor:[UIColor redColor]] forState:UIControlStateSelected | UIControlStateHighlighted];
     self.button6_2.center = center;
     self.button6_2.selected = NO;
     
     [self.button6 addTarget:self action:@selector(buttonTouchDown:) forControlEvents:UIControlEventTouchDown];
-    [self.button6 addTarget:self action:@selector(buttonTouchUp:) forControlEvents:UIControlEventTouchUpInside];
+    [self.button6 addTarget:self action:@selector(buttonTouchUp:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
     [self.button6_2 addTarget:self action:@selector(buttonTouchDown:) forControlEvents:UIControlEventTouchDown];
-    [self.button6_2 addTarget:self action:@selector(buttonTouchUp:) forControlEvents:UIControlEventTouchUpInside];
+    [self.button6_2 addTarget:self action:@selector(buttonTouchUp:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
     self.button6.tag = 1;
     self.button6_2.tag = 2;
 //
