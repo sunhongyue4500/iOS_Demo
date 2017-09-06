@@ -13,6 +13,7 @@
 		A615856E1DE7E6770036A155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A615856C1DE7E6770036A155 /* Main.storyboard */; };
 		A61585701DE7E6770036A155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A615856F1DE7E6770036A155 /* Assets.xcassets */; };
 		A61585731DE7E6770036A155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61585711DE7E6770036A155 /* LaunchScreen.storyboard */; };
+		A6B754171DEA827A00200852 /* EFBTerrainElevationPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B754161DEA827A00200852 /* EFBTerrainElevationPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A615856F1DE7E6770036A155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A61585721DE7E6770036A155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A61585741DE7E6770036A155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B754151DEA827A00200852 /* EFBTerrainElevationPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBTerrainElevationPoint.h; sourceTree = "<group>"; };
+		A6B754161DEA827A00200852 /* EFBTerrainElevationPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBTerrainElevationPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A61585671DE7E6770036A155 /* AppDelegate.m */,
 				A61585691DE7E6770036A155 /* ViewController.h */,
 				A615856A1DE7E6770036A155 /* ViewController.m */,
+				A6B754151DEA827A00200852 /* EFBTerrainElevationPoint.h */,
+				A6B754161DEA827A00200852 /* EFBTerrainElevationPoint.m */,
 				A615856C1DE7E6770036A155 /* Main.storyboard */,
 				A615856F1DE7E6770036A155 /* Assets.xcassets */,
 				A61585711DE7E6770036A155 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B754171DEA827A00200852 /* EFBTerrainElevationPoint.m in Sources */,
 				A615856B1DE7E6770036A155 /* ViewController.m in Sources */,
 				A61585681DE7E6770036A155 /* AppDelegate.m in Sources */,
 				A61585651DE7E6770036A155 /* main.m in Sources */,
@@ -312,6 +318,7 @@
 				A61585791DE7E6770036A155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
