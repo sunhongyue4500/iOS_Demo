@@ -46,7 +46,7 @@ static NSString *cellIdentifier = @"cellId";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MyCusTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
-    //[cell config1];
+    [cell config1];
     
     return cell;
 }

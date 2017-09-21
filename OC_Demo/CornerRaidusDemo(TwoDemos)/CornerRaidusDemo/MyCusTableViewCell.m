@@ -32,12 +32,20 @@
 
 
 - (void)config1 {
-    self.myView.layer.cornerRadius = 5;
+    
+    //self.myView.layer.cornerRadius = self.myView.bounds.size.width / 2;
     self.myUIImageView.layer.cornerRadius = 5;
     self.myUIImageView.layer.masksToBounds = YES;
-    self.myLabel.layer.cornerRadius = 5;
+    self.myLabel.layer.cornerRadius = self.myLabel.bounds.size.width / 2;
     self.myLabel.layer.masksToBounds = YES;
+    
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.myView.bounds byRoundingCorners:UIRectCornerTopRight cornerRadii:CGSizeMake(20, 5)];
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = self.myView.bounds;
+    maskLayer.path = maskPath.CGPath;
+    self.myView.layer.mask = maskLayer;
 }
+
 
 - (void)confif2 {
 
