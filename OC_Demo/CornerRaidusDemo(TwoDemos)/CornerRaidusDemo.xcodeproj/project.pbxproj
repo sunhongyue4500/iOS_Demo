@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62EE17E1F61228200BC43DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62EE17D1F61228200BC43DB /* main.m */; };
+		A62EE1811F61228200BC43DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62EE1801F61228200BC43DB /* AppDelegate.m */; };
+		A62EE1841F61228200BC43DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62EE1831F61228200BC43DB /* ViewController.m */; };
+		A62EE1871F61228200BC43DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62EE1851F61228200BC43DB /* Main.storyboard */; };
+		A62EE1891F61228200BC43DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62EE1881F61228200BC43DB /* Assets.xcassets */; };
+		A62EE18C1F61228200BC43DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62EE18A1F61228200BC43DB /* LaunchScreen.storyboard */; };
+		A62EE1951F6123BD00BC43DB /* MyCusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A62EE1941F6123BD00BC43DB /* MyCusTableViewCell.m */; };
+		A62EE1981F61243F00BC43DB /* MyCusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62EE1971F61243F00BC43DB /* MyCusTableViewController.m */; };
+		A681D4F31F613EAD00A4043F /* MyCusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A681D4F21F613EAD00A4043F /* MyCusView.m */; };
+		A681D4F61F61417E00A4043F /* UIView+AddCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A681D4F51F61417E00A4043F /* UIView+AddCorner.m */; };
+		A681D4F91F61432300A4043F /* UIImage+DrawCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A681D4F81F61432300A4043F /* UIImage+DrawCircleImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62EE1791F61228200BC43DB /* CornerRaidusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRaidusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62EE17D1F61228200BC43DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A62EE17F1F61228200BC43DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A62EE1801F61228200BC43DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A62EE1821F61228200BC43DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A62EE1831F61228200BC43DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A62EE1861F61228200BC43DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A62EE1881F61228200BC43DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A62EE18B1F61228200BC43DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A62EE18D1F61228200BC43DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EE1931F6123BD00BC43DB /* MyCusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCusTableViewCell.h; sourceTree = "<group>"; };
+		A62EE1941F6123BD00BC43DB /* MyCusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCusTableViewCell.m; sourceTree = "<group>"; };
+		A62EE1961F61243F00BC43DB /* MyCusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCusTableViewController.h; sourceTree = "<group>"; };
+		A62EE1971F61243F00BC43DB /* MyCusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCusTableViewController.m; sourceTree = "<group>"; };
+		A681D4F11F613EAD00A4043F /* MyCusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCusView.h; sourceTree = "<group>"; };
+		A681D4F21F613EAD00A4043F /* MyCusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCusView.m; sourceTree = "<group>"; };
+		A681D4F41F61417E00A4043F /* UIView+AddCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AddCorner.h"; path = "../UIView+AddCorner.h"; sourceTree = "<group>"; };
+		A681D4F51F61417E00A4043F /* UIView+AddCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AddCorner.m"; path = "../UIView+AddCorner.m"; sourceTree = "<group>"; };
+		A681D4F71F61432300A4043F /* UIImage+DrawCircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DrawCircleImage.h"; sourceTree = "<group>"; };
+		A681D4F81F61432300A4043F /* UIImage+DrawCircleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DrawCircleImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62EE1761F61228200BC43DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62EE1701F61228200BC43DB = {
+			isa = PBXGroup;
+			children = (
+				A62EE17B1F61228200BC43DB /* CornerRaidusDemo */,
+				A62EE17A1F61228200BC43DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A62EE17A1F61228200BC43DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62EE1791F61228200BC43DB /* CornerRaidusDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62EE17B1F61228200BC43DB /* CornerRaidusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A62EE17F1F61228200BC43DB /* AppDelegate.h */,
+				A62EE1801F61228200BC43DB /* AppDelegate.m */,
+				A62EE1821F61228200BC43DB /* ViewController.h */,
+				A62EE1831F61228200BC43DB /* ViewController.m */,
+				A62EE1851F61228200BC43DB /* Main.storyboard */,
+				A62EE1881F61228200BC43DB /* Assets.xcassets */,
+				A62EE18A1F61228200BC43DB /* LaunchScreen.storyboard */,
+				A62EE18D1F61228200BC43DB /* Info.plist */,
+				A62EE17C1F61228200BC43DB /* Supporting Files */,
+				A62EE1931F6123BD00BC43DB /* MyCusTableViewCell.h */,
+				A62EE1941F6123BD00BC43DB /* MyCusTableViewCell.m */,
+				A62EE1961F61243F00BC43DB /* MyCusTableViewController.h */,
+				A62EE1971F61243F00BC43DB /* MyCusTableViewController.m */,
+				A681D4F11F613EAD00A4043F /* MyCusView.h */,
+				A681D4F21F613EAD00A4043F /* MyCusView.m */,
+				A681D4F41F61417E00A4043F /* UIView+AddCorner.h */,
+				A681D4F51F61417E00A4043F /* UIView+AddCorner.m */,
+				A681D4F71F61432300A4043F /* UIImage+DrawCircleImage.h */,
+				A681D4F81F61432300A4043F /* UIImage+DrawCircleImage.m */,
+			);
+			path = CornerRaidusDemo;
+			sourceTree = "<group>";
+		};
+		A62EE17C1F61228200BC43DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A62EE17D1F61228200BC43DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62EE1781F61228200BC43DB /* CornerRaidusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62EE1901F61228200BC43DB /* Build configuration list for PBXNativeTarget "CornerRaidusDemo" */;
+			buildPhases = (
+				A62EE1751F61228200BC43DB /* Sources */,
+				A62EE1761F61228200BC43DB /* Frameworks */,
+				A62EE1771F61228200BC43DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CornerRaidusDemo;
+			productName = CornerRaidusDemo;
+			productReference = A62EE1791F61228200BC43DB /* CornerRaidusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62EE1711F61228200BC43DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sunhy;
+				TargetAttributes = {
+					A62EE1781F61228200BC43DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GVZ7SF9NBJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A62EE1741F61228200BC43DB /* Build configuration list for PBXProject "CornerRaidusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A62EE1701F61228200BC43DB;
+			productRefGroup = A62EE17A1F61228200BC43DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62EE1781F61228200BC43DB /* CornerRaidusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62EE1771F61228200BC43DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EE18C1F61228200BC43DB /* LaunchScreen.storyboard in Resources */,
+				A62EE1891F61228200BC43DB /* Assets.xcassets in Resources */,
+				A62EE1871F61228200BC43DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62EE1751F61228200BC43DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62EE1841F61228200BC43DB /* ViewController.m in Sources */,
+				A62EE1811F61228200BC43DB /* AppDelegate.m in Sources */,
+				A681D4F31F613EAD00A4043F /* MyCusView.m in Sources */,
+				A681D4F91F61432300A4043F /* UIImage+DrawCircleImage.m in Sources */,
+				A62EE17E1F61228200BC43DB /* main.m in Sources */,
+				A62EE1981F61243F00BC43DB /* MyCusTableViewController.m in Sources */,
+				A62EE1951F6123BD00BC43DB /* MyCusTableViewCell.m in Sources */,
+				A681D4F61F61417E00A4043F /* UIView+AddCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A62EE1851F61228200BC43DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62EE1861F61228200BC43DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A62EE18A1F61228200BC43DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62EE18B1F61228200BC43DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62EE18E1F61228200BC43DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A62EE18F1F61228200BC43DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62EE1911F61228200BC43DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVZ7SF9NBJ;
+				INFOPLIST_FILE = CornerRaidusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunhongyi.CornerRaidusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A62EE1921F61228200BC43DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVZ7SF9NBJ;
+				INFOPLIST_FILE = CornerRaidusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunhongyi.CornerRaidusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62EE1741F61228200BC43DB /* Build configuration list for PBXProject "CornerRaidusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EE18E1F61228200BC43DB /* Debug */,
+				A62EE18F1F61228200BC43DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62EE1901F61228200BC43DB /* Build configuration list for PBXNativeTarget "CornerRaidusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62EE1911F61228200BC43DB /* Debug */,
+				A62EE1921F61228200BC43DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62EE1711F61228200BC43DB /* Project object */;
+}
