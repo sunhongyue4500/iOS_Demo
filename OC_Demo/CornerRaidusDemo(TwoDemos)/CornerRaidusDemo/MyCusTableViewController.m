@@ -29,6 +29,8 @@ static NSString *cellIdentifier = @"cellId";
     
 //    [self.tableView registerNib:[UINib nibWithNibName:@"Main" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:cellIdentifier
 //     ];
+    NSLog(@"%@",NSHomeDirectory());
+    NSLog(@"%@",[[NSBundle mainBundle] bundlePath]);
 }
 
 - (void)didReceiveMemoryWarning {
